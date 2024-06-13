@@ -5,3 +5,4 @@ gunicorn
 tensorflow
 keras
 flask
+joblib
