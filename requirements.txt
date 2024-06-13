@@ -1,7 +1,7 @@
 pandas
 numpy
 scikit-learn
-gunicorn --workers 2 ...
+gunicorn --workers 2 --timeout 120 myapp:app
 tensorflow
 keras
 flask
